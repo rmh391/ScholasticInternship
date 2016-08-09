@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="UTF-8">
+    <title> Scholastic Summer Internship</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <nav>
+      <script src="https://d3js.org/d3.v3.min.js"></script>
+      <script src="https://cdn.rawgit.com/riccardoscalco/textures/master/textures.min.js"></script>
+      <script src="js/index.js"></script>
+    </nav>
+
+    <div class="Container"> <!-- Beginning of container -->
+
+      <div class="ContainerDA">
+        <h1 id="DA">
+              Data Analysts  </h1>
+        <div class="main">
+          <div id="fc-slideshow" class="fc-slideshow">
+            <ul class="fc-slides">
+              <li><img src="images/adhoc.gif" width="100%" height="100%"/><h3>Adobe Analytics</h3></li>
+              <li><img src="images/reportBuilder.png" width="100%" height="100%"/><h3>Report Builder</h3></li>
+              <li><img src="images/charles.png" width="100%" height="100%" /><h3>Charles Proxy</h3></li>
+            </ul>
+          </div>
+          <div id="arrow">
+            <a href="#BI"> <img src="https://openclipart.org/image/2400px/svg_to_png/26185/Arrow-Down-Red.png" height="5%" width="5%"> </a> </div>
+        </div>
+
+      </div>
+
+
+      <div class="ContainerBI">
+        <h1 id="BI"> Business Intelligence Analysts </h1>
+        <div class="main">
+          <div id="fc-slideshow" class="fc-slideshow">
+            <ul class="fc-slides">
+              <li><img src="images/adhoc.gif" width="100%" height="100%"/><h3>Adobe Analytics</h3></li>
+              <li><img src="images/code.jpg" width="100%" height="100%"/><h3>SQL/Database Languages</h3></li>
+              <li><img src="images/charles.png" width="100%" height="100%" /><h3>Charles Proxy</h3></li>
+            </ul>
+          </div>
+          <div id="arrow">
+            <a href="#DE"> <img src="https://openclipart.org/image/2400px/svg_to_png/26185/Arrow-Down-Red.png" height="5%" width="5%"> </a> </div>
+        </div>
+      </div>
+
+      <div class="DataEngineers">
+        <h1 id="DE"> Data Engineers </h1>
+        <div class="main">
+          <div id="fc-slideshow" class="fc-slideshow">
+            <ul class="fc-slides">
+              <li><img src="images/adhoc.gif" width="100%" height="100%"/><h3>Adobe Analytics</h3></li>
+              <li><img src="images/csshtml.gif" width="100%" height="100%"/><h3>HTML/CSS/JS</h3></li>
+              <li><img src="images/devtools.gif" width="100%" height="100%" /><h3>Console</h3></li>
+            </ul>
+          </div>
+          <div id="arrow">
+            <a href="#PRo"> <img src="https://openclipart.org/image/2400px/svg_to_png/26185/Arrow-Down-Red.png" height="5%" width="5%"> </a> </div>
+        </div>
+      </div>
+
+      <div class="Projects">
+        <h1 id="PRo"> Projects </h1>
+        <p>
+          <h3> Competitive Analysis </h3>
+        <img src="images/Proj1.png" height="85%" width="85%"> </img>
+        <img src="images/Proj2.png" height="85%" width="85%"> </img>
+        <h3> R - Shiny App </h3>
+        <iframe src="http://10.42.4.187:3838/QA3/tso/?start=2014-09-29&end=2015-09-29&tabs=Fun" width="85%" height="800px"></iframe>
+        <img src=""> </img>
+        <img src=""> </img>
+      </p>
+      </div>
+    </div> <!-- End of container -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="js/flipshow.js"></script>
+    <script>
+      $(function() {
+        $('#fc-slideshow').flipshow();
+      });
+      </script>
+</body>
+<!--  <footer class="wave">
+</footer> -->
+</html>

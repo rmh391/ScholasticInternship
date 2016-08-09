@@ -1,0 +1,155 @@
+nav{
+
+    background: red;
+}
+
+div.ContainerDA {
+
+  /*                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              background-color: #66A5AD;*/
+  width: 100%;
+  display: block;
+  padding-bottom: 50px;
+}
+
+html, body {
+overflow-x: hidden;
+}
+
+div.ContainerBI {
+  background: red;
+  margin: 0 -9999rem;
+  padding: 0.25rem 9999rem;
+}
+
+div.DataEngineers{
+  background-color: white;
+  padding-bottom: 50px;
+  margin: 0 -9999rem;
+  padding: 0.25rem 9999rem;
+}
+
+
+div.Projects {
+  background-color: #1777BC;
+  padding-bottom: 50px;
+  margin: 0 -9999rem;
+  padding: 0.25rem 9999rem;
+  }
+
+div.Container {
+  padding: 5rem 15%;
+}
+
+h1 {
+  margin-bottom: 0.69444em;
+  font-size: 2.0625rem;
+  font: 700 4em/1 "Oswald", sans-serif;
+  letter-spacing: 0;
+  padding: .25em 0 .325em;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 0 0 80px rgba(100,100,100,.5);
+
+/* Clip Background Image */
+
+  background: url(http://www.readsleeprepeat.org/wp-content/uploads/2015/06/Scholastic-Logo.jpg) repeat-y;
+  -webkit-background-clip: text;
+
+/* Animate Background Image */
+
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: aitf 100s linear infinite;
+
+/* Activate hardware acceleration for smoother animations */
+
+  -webkit-transform: translate3d(10,30,0);
+  -webkit-backface-visibility: hidden;
+}
+
+
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
+
+footer {
+  height: 10px;
+  background-color: royalblue;
+  background-image:
+    linear-gradient(
+      rgba(0,200,255,0.2),
+      rgba(155,255,255,0)
+    );
+  overflow: hidden;
+}
+
+
+.fc-slideshow {
+	position: relative;
+	width: 400px;
+	height: 400px;
+	box-shadow: inset 0 0 3px rgba(0,0,0,0.4), 0 0 0 10px #cc2724;
+	border-radius: 50%;
+	margin: 0 auto;
+	-webkit-perspective: 1200px;
+	-moz-perspective: 1200px;
+	perspective: 1200px;
+}
+
+.fc-slideshow img {
+	border-radius: 50%;
+}
+
+.fc-slideshow h3 {
+	position: absolute;
+	top: 50%;
+	margin-top: 30px;
+	line-height: 50px;
+	height: 50px;
+	left: 80px;
+	right: 80px;
+	font-size: 22px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-align: center;
+	border-radius: 20% 10% 50% 5% / 25% 10% 30% 75%;
+}
+
+
+/* No JS fallback */
+
+.no-js .fc-slideshow {
+	height: auto;
+	box-shadow: none;
+}
+
+.no-js .fc-slideshow h3 {
+	position: relative;
+	width: auto;
+	height: auto;
+	left: auto;
+	right: auto;
+	top: auto;
+	margin: 5px;
+}
+
+body {
+    font-family: 'Old Standard TT', Calibri, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+ul.li {
+  display: block;
+
+}
+
+a {
+  display: block;
+  margin: auto;
+  padding-left: 49%;
+
+}
